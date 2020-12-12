@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<class name="dal.Student" table="tbl_Stu">
+
+<id name="rno" column="rno">
+<generator class="assigned"></generator>
+</id>
+<property name="sname" />
+<property name="branch"/>
+<property name="fees" />
+
+</class>
+</hibernate-mapping>
